@@ -30,3 +30,15 @@ table {
     text-align: center;
     border-collapse: collapse;
 }
+
+#searchbtn {
+    cursor: pointer;
+}
+
+.smallP {
+    text-align: left;
+    width: 25%;
+    height: 20%;
+    overflow: auto;
+    /*float: right;*/
+}

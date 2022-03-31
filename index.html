@@ -13,6 +13,10 @@
     <header>
         Jeffrey Lee
     </header>
+
+    <!--to make into a button-->
+    <a href="about.html">About</a>
+    
     <div>
         <h1>
             Description
@@ -27,24 +31,22 @@
     <hr>
     <h2>Information:</h2>
     <!--to make table dynamic-->
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Graduation Year</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Jeffrey Lee</td>
-                    <td>23</td>
-                    <td>2021</td>
-                </tr>
-            </tbody>
-        </table>
-    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Graduation Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jeffrey Lee</td>
+                <td>23</td>
+                <td>2021</td>
+            </tr>
+        </tbody>
+    </table>
     <hr>
     <div>
         <a href="https://google.ca" target="blank">Google</a>
@@ -52,11 +54,23 @@
             Search on your own:
         </p>
         <form action="https://www.google.com/search" method = "get" target="blank">
-            <input name="q" type="search">
-            <input type="submit" value="Search">
+            <!--                
+            <input placeholder="type here" title="Enter your search query here" name="q" type="search" maxlength="10">
+            -->
+            <input placeholder="type here" title="Enter your search query here" name="q" type="search">
+            <input type="submit" value="Search" id="searchbtn">
         </form>
     </div>
-    <a href="about.html" class="bottom">About</a>
+    <h4>Comments?</h4>
+    <textarea name="comments" id="commentsbox" cols="30" rows="10"></textarea>
+    <br>
+
+    <div class="smallP">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+    </div>
+
     <blockquote class="bottom">"Someone's sitting in the shade today because someone planted a tree a long time ago." - Warren Buffett</blockquote>
     <footer class="bottom">
         Copyright &#169; Jeffrey Lee
