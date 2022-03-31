@@ -13,9 +13,9 @@ body {
 }
 
 /* to fix */
-table, td, th {
+td, th{
     border: 1px solid black;
-    text-align: center;
+    text-align: left;
     vertical-align: center;
 }
 
@@ -23,4 +23,10 @@ table, td, th {
 .bottom {
     bottom: 0%;
     position: fixed;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
 }
