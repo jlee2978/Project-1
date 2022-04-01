@@ -19,7 +19,7 @@ td, th{
     vertical-align: center;
 }
 
-/* to fix */
+/* to fix; currently always at bottom of screen and visible */
 .bottom {
     bottom: 0%;
     position: fixed;
