@@ -48,10 +48,12 @@
         </tbody>
     </table>
     <hr>
-    <form>
-        <input placeholder="Enter your name" type="text" id="username">
-        <input type="submit" value="Submit Name" id="userGreeting">
-    </form>
+    <div id="greeting">
+        <form onsubmit="event.preventDefault(); helloUser()">
+            <input placeholder="Enter your name" type="text" id="username" autofocus>
+            <input type="submit" value="Submit Name" id="userGreeting">
+        </form>
+    </div>
     <br><br>
     <div>
         <a href="https://google.ca" target="blank">Google</a>
