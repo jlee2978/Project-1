@@ -1,4 +1,4 @@
-// to continue to fix
+console.log("Hello World");
 
 document.querySelector('#userGreeting').addEventListener('submit', helloUser)
 
@@ -12,7 +12,15 @@ function helloUser() {
     // greetingText = document.createTextNode("Hello "+user);
     // greetingTag.appendChild(greetingText);
     var element = document.getElementById("greeting");
-    element.appendChild(greetingTag);
+    var form = document.getElementById('form')
+    // element.appendChild(greetingTag);
+    element.insertBefore(greetingTag, form)
 
     return false;   // don't submit the form
+}
+
+function toTop() {
+    console.log("going to the top");
+    window.scrollTo(0, 0);
+    console.log("scrolled to the top");
 }

@@ -22,6 +22,11 @@ td, th{
 /* to fix; currently always at bottom of screen and visible */
 .bottom {
     bottom: 0%;
+    position: fixed;    /* change this line */
+}
+
+.left {
+    left: 0%;
     position: fixed;
 }
 
