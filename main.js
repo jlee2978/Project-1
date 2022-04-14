@@ -3,6 +3,7 @@ console.log("Hello World");
 document.querySelector('#userGreeting').addEventListener('submit', helloUser)
 
 function helloUser() {
+    console.log("greeting user");
     let user = document.querySelector('#username').value;
     // to change from alert to text greeting on page
     // alert('Hello '+user);
@@ -15,6 +16,8 @@ function helloUser() {
     var form = document.getElementById('form')
     // element.appendChild(greetingTag);
     element.insertBefore(greetingTag, form)
+
+    console.log("user greeted");
 
     return false;   // don't submit the form
 }

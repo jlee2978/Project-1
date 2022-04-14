@@ -21,12 +21,13 @@ td, th{
 
 /* to fix; currently always at bottom of screen and visible */
 .bottom {
-    bottom: 0%;
+    /*bottom: 0%;*/
     position: fixed;    /* change this line */
 }
 
+/* to fix; apply to scroll to top button */
 .left {
-    left: 0%;
+    /* left: 0%; */
     position: fixed;
 }
 
@@ -46,4 +47,14 @@ table {
     height: 20%;
     overflow: auto;
     /*float: right;*/
+}
+
+#topBtn {
+    width: 5%;
+}
+
+.link {
+    background-color: red;
+    color: white;
+    padding: 2px;   /* fix padding as it overlaps into other element if too large */
 }
