@@ -56,5 +56,10 @@ table {
 .link {
     background-color: red;
     color: white;
-    padding: 2px;   /* fix padding as it overlaps into other element if too large */
+    padding: 10px;   /*same as .linkBar */
+}
+
+.linkBar {
+    padding: 10px;  /*same as .link */
+    /*border: 1px solid black;*/
 }
